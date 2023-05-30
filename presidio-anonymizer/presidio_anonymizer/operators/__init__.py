@@ -10,6 +10,8 @@ from .encrypt import Encrypt
 from .decrypt import Decrypt
 from .aes_cipher import AESCipher
 from .operators_factory import OperatorsFactory
+from .consistent_replace import ConsistentReplace
+from .consistent_replace import ConsistentReplaceReverse
 
 __all__ = [
     "OperatorType",
@@ -24,4 +26,6 @@ __all__ = [
     "Decrypt",
     "AESCipher",
     "OperatorsFactory",
+    "ConsistentReplace",
+    "ConsistentReplaceReverse"
 ]

@@ -6,3 +6,6 @@ models:
   -
     lang_code: es
     model_name: es_core_news_md
+  - 
+    lang_code: fr
+    model_name: fr_core_news_lg
